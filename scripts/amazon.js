@@ -6,7 +6,7 @@ const products = [
       stars: 4.5,
       count: 87,
     },
-    priceCents: 1090,
+    priceCents: 1095,
   },
   {
     image: "images/products/intermediate-composite-basketball.jpg",
@@ -84,4 +84,4 @@ products.forEach((products) => {
 
 });
 
-console.log(productsHTML);
+document.querySelector(".js-products-grid").innerHTML = productsHTML ; 
