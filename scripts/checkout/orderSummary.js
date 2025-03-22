@@ -109,6 +109,7 @@ export function renderOrderSummary() {
         const productId = event.target.dataset.productId;
         removeFromCart(productId);
         document.querySelector(`.js-cart-item-container-${productId}`).remove();
+        renderPaymentSummary();
       }
     });
 
