@@ -45,7 +45,7 @@ This is a **JavaScript-based Amazon Clone** built with **HTML, CSS, and JavaScri
 3. Open the `index.html` file in a browser.
 
 ## Live Demo
-[Click here to view the live demo](#)
+[Click here to view the live demo](https://amazons-clone-javascript.netlify.app/)
 
 ## Future Improvements
 - Implement a backend with **Node.js & Express.js**.
